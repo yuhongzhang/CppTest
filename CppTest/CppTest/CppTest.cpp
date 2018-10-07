@@ -1,4 +1,4 @@
-// CppTest.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// CppTest.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -9,3 +9,4 @@ int _tmain(int argc, _TCHAR* argv[])
 	return 0;
 }
 
+//add new info.  ---zhangyuhong_20181001
