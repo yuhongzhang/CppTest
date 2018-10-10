@@ -14,6 +14,5 @@ add new info at github.please verify when u pull it.
 
 add new local info.
 
-111
+<<<<<<< HEAD
 
-222
