@@ -13,4 +13,3 @@ add new info at 20181010 17:41.
 add new info at github.please verify when u pull it.
 
 add new local info.
->>>>>>> 8eadc48704c7aaeb426f6e64ee040cb8f37999b2
