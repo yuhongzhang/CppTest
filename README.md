@@ -16,4 +16,7 @@ add new local info.
 
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 local
+github
+>>>>>>> cabb94a21485d2e6426b5e1955bdc7de77f1c383
