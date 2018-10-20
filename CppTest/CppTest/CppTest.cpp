@@ -27,7 +27,7 @@ int main()
 				<< "and" << v2
 	 			<< "is"  << v1 + v2 << endl;
 
-	/*vector 练习*/
+	/*vector 练习  zhangyuhong_20181020*/
 
 	vector<int>  v(5);
 	//vector<string>  s(5,11);
