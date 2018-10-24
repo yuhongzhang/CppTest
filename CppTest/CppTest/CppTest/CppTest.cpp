@@ -59,13 +59,14 @@ int main()
 
 	cout << rtWide << "private_test";
 	cout << endl;
-
+/*
 	SmallCP3  smTest;
 	//smTest.setWidth(998);
 	int smWide = smTest.getWidth();
 	cout << smWide << "protected";
 	cout << endl;
-
+	*/
+	 
 	system("pause");
 	return 0;
 

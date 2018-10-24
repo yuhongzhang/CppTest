@@ -5,7 +5,7 @@ public:
 	CP3_Test(void);
 	~CP3_Test(void);
 
-
+	static int		iStaticTest;
 
 public://类、友员、子类、对象
 	void  setWidth(int wide);
@@ -31,5 +31,8 @@ class SmallCP3 : CP3_Test{
 public:
 	void setWidth(int wide);
 	int  getWidth();
+
+private:
+	int  iTestThis;
 
 };
