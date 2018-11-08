@@ -20,6 +20,17 @@ using namespace std;
 //引用练习
 void  Quote();
 
+void  pTest(int *tmp){
+ 
+	int a = 11;
+	int b = 12;
+
+	*tmp = a + b;
+
+	return  ;
+}
+
+
 int main()
 {
 	printf("the world is peace!\n");
@@ -66,7 +77,72 @@ int main()
 	cout << smWide << "protected";
 	cout << endl;
 	*/
-	 
+
+	//重载
+	cout << "函数重载" << endl;
+	SmallCP3  funTest;
+	funTest.print(11);
+	funTest.print(11.33);
+	funTest.print("zhangyuhong!");
+
+	cout << "运算符重载" <<endl;
+
+	SmallCP3   operTest1;
+	SmallCP3   operTest2;
+	cout << "xigou2";  
+	SmallCP3   operTest;
+
+	cout << "xigou3";  
+	operTest1.setWidth(11);
+	operTest2.setWidth(100);
+	 cout << "xigou4";  
+		 
+	operTest = operTest1 + operTest2;
+	 cout << "西沟";
+	cout << "operTest.prwidth" << operTest.getWidth() << endl;
+	
+	//析构函数的释放顺序
+
+	//指针
+	cout << "指针值增加" << endl;
+	int  a = 100;
+	int   *iPtr = &a;
+	cout << "未增加时的地址是：" << iPtr;
+	iPtr++;
+	cout << "增加后的地址是：" << iPtr << endl;
+
+	char str[] = "glad to test something";
+	char *p = str;
+	p++;
+	int *p1 = reinterpret_cast<int *>(p);
+	p1++;
+	p = reinterpret_cast<char *>(p1); 
+	printf("result is %s\n", p);
+
+
+	cout << "指针和引用参数的区别" << endl;
+	int c = 10;
+	pTest(&c);
+	cout << "指针参数的结果是：" << c << endl;
+
+	char tmp[] = "zyh";
+
+	cout << "字符串操作" << endl;
+	cout << "字符串大小为："  << strlen(tmp) << endl;
+
+	cout << "====多态接口测试===="  << endl;
+
+
+	CP3_Test   *polytest;
+	
+	polyTri  triTest;	
+	polytest = &triTest; 
+	polytest->area();
+
+	polyRec  recTest;
+	polytest = &recTest; 
+	polytest->area();
+
 	system("pause");
 	return 0;
 
@@ -92,6 +168,3 @@ void  Quote(){
 	 
 	return ;
 }
-
-
-
