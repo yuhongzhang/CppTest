@@ -85,6 +85,7 @@
     <ClCompile Include="CppTest.cpp" />
     <ClCompile Include="LinkListOp.cpp" />
     <ClCompile Include="P3_Test.cpp" />
+    <ClCompile Include="Quote.hpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

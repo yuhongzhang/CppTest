@@ -10,15 +10,15 @@
 using namespace std;
 
 #include "P3_Test.h"
+ 
 /*
 *多行注释，每一行都以一个*开头；
 *
 */
 #include <vector>
 
-
-//引用练习
-void  Quote();
+#include "Quote.hpp"
+ 
 
 void  pTest(int *tmp){
  
@@ -29,10 +29,16 @@ void  pTest(int *tmp){
 
 	return  ;
 }
-
+  
+//静态成员变量如何在 hpp文件中定义？？？ 只能在类里边定义了？？？  不得解_zhangyuhong_20181111. 
+ //int aabb::a = 111;
 
 int main()
 {
+	aabb  tt;
+
+	cout << "static value:" << tt.a << endl;
+
 	printf("the world is peace!\n");
 	int v1 = 1;
 	int v2 = 2;
@@ -60,7 +66,7 @@ int main()
 
 	//引用练习
 	cout << "引用练习如下" << endl;
-	Quote();
+	//test.Quote();
 
 	//类访问修饰符
 	cout << "类访问修饰符private -- protected" << endl;
@@ -143,28 +149,11 @@ int main()
 	polytest = &recTest; 
 	polytest->area();
 
+	cout << "标准库类型test" << endl;
+
+
+
 	system("pause");
 	return 0;
 
-}
-
-//add new info.  ---zhangyuhong_20181001
-
-void  Quote(){
-
-	int i = 99;
-	double j = 100.0;
-
-	int &test = i;
-	double &cc = j;
-	
-	double  hh = 101;
-	cc = hh;
-
-	cout << i << "i";
-	cout << test << "test";
-	cout << j << "j";
-	cout <<cc <<endl;
-	 
-	return ;
 }

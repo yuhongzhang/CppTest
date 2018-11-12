@@ -1,37 +1,17 @@
-﻿生成启动时间为 2018/11/8 23:32:30。
+﻿生成启动时间为 2018/11/12 23:05:14。
      1>项目“F:\zhang_C++\CppTest\CppTest\CppTest\CppTest.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\CppTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CppTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CppTest.cpp P3_Test.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CppTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CppTest.cpp Quote.hpp
+         Quote.hpp
+     1>f:\zhang_c++\cpptest\cpptest\cpptest\quote.hpp(13): error C2864: “aabb::a”: 只有静态常量整型数据成员才可以在类中初始化
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
          CppTest.cpp
-         正在生成代码...
-         正在编译...
-         P3_Test.cpp
-         正在生成代码...
-       ResourceCompile:
-         所有输出均为最新。
-       ManifestResourceCompile:
-         所有输出均为最新。
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\zhang_C++\CppTest\CppTest\Debug\CppTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CppTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\zhang_C++\CppTest\CppTest\Debug\CppTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\zhang_C++\CppTest\CppTest\Debug\CppTest.lib" /MACHINE:X86 Debug\CppTest.res
-         Debug\CppTest.exe.embed.manifest.res
-         Debug\CppTest.obj
-         Debug\LinkListOp.obj
-         Debug\P3_Test.obj
-         Debug\stdafx.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CppTest.exe.embed.manifest" /manifest Debug\CppTest.exe.intermediate.manifest
-         所有输出均为最新。
-       LinkEmbedManifest:
-         所有输出均为最新。
-         CppTest.vcxproj -> F:\zhang_C++\CppTest\CppTest\Debug\CppTest.exe
-       FinalizeBuildStatus:
-         正在删除文件“Debug\CppTest.unsuccessfulbuild”。
-         正在对“Debug\CppTest.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“F:\zhang_C++\CppTest\CppTest\CppTest\CppTest.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“F:\zhang_C++\CppTest\CppTest\CppTest\CppTest.vcxproj”(build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:10.03
+已用时间 00:00:02.38

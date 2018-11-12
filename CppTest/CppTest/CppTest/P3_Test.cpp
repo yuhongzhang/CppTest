@@ -7,6 +7,8 @@ using namespace std;
 
 int CP3_Test::iStaticTest = 0;
 
+static  int statcTest  =  100;
+
 CP3_Test::CP3_Test(void)
 {
 	//iStaticTest = 0;
